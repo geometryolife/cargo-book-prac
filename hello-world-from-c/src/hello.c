@@ -3,5 +3,5 @@
 #include <stdio.h>
 
 void hello(){
-  printf("Hello, Joe, welcome to here!");
+  printf("Hello, Joe, welcome to here!\n");
 }
