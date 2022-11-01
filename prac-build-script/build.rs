@@ -30,7 +30,7 @@ fn main() {
 
 // Building a native library
 // hello-world-from-c
-/*
+
 use std::env;
 use std::path::Path;
 use std::process::Command;
@@ -55,4 +55,3 @@ fn main() {
     println!("cargo:rustc-link-lib=static=hello");
     println!("cargo:rerun-if-changee=src/hello.c");
 }
-*/
