@@ -1,0 +1,13 @@
+[package]
+name = "libz-sys"
+version = "0.1.0"
+edition = "2021"
+links = "z"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+pkg-config = "0.3.16"
+
+[dependencies]
+libz-sys = "1.1.8"
